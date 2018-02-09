@@ -7,9 +7,7 @@ import config
 
 from discord.ext import commands
 
-DESCRIPTION = '''Blitzcrank Bot is a Discord bot written by Frosty ☃#5263 to pull various statsitics
-               from Riot's API for a given summoner. All commands should be prefixed with 'b!'
-               (for example, b!search)'''
+DESCRIPTION = '''Op.gg but in your Discord lol'''
 
 STARTUP_EXTENSIONS = ['utilities.utility_commands', 'summoner_stats', 'static_data', 'default_regions', 'reload',
                       'events']

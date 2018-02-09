@@ -1,10 +1,7 @@
 ## Blitzcrank Bot
 
-Blitzcrank Bot is a Discord bot in its second iteration that retrieves useful information about League of Legends players.
+It's my boy BLITZCRANK BOT
 
-Invite link: **[Click here!](https://discordapp.com/oauth2/authorize?client_id=282765243862614016&scope=bot&permissions=19456)**
-
-Support Server: **[Click here!](https://discordapp.com/invite/J78uAgZ)**
 ### Commands
 
 Command | Usage | Description
@@ -28,30 +25,25 @@ b!top|b!top Sivir|Retrieves the top 10 users on the server by mastery points
 b!masteries|b!masteries Riviere| Retrieves a given user's mastery pages
 b!runes|b!runes Riviere| Retreives a given user's rune pages
 
-## FAQ
+### Region Commands
+b!region set sets the default region so you dont have to click a bunch of times
 
-### What are the region commands?
-The region commands (b!region set, etc) are part of Blitzcrank Bot's ability to set a default region per server. This means that you don't have to add the region as an argument to every command!
-
-### But what if my account is on a different region to the default?
-You can specify which region Blitzcrank Bot should use at the end of the usual command! For example, if the default region of your server was NA, but your account was on EUW, you can use `b!search [User] EUW`.
+### Specify Region
+`b!search [User] EUW` if your account is on euw
 
 ## Troubleshooting
-**99% of issues with the bot can be solved by enclosing Summoner and Champion names in quotation marks (i.e "Lee Sin")**
+**99% of issues with the bot can be solved by putting summoner and champion names in quotation marks ("Lee Sin")**
 ### The bot tells me some part of my name isn't a valid region
-Unfortunately, if your Summoner name contains a space (i.e Super Frosty), you must enclose the name in quotation marks like so: "Super Frosty".
+If your name has a space put it in quotes ("large noob").
 
 ### "[Champion] is not a valid region!"
-Same as above, either your summoner name has a space, the champion name has a space, or both. They need to be in quotation marks if this is the case.
+Needs to be in quotes if it has a space
 
-### The bot doesn't respond at all!
-This happens when your name has a space _and_ you specified a region, or _both_ your summoner name and champion name have a space. See above, enclose name in quotation marks.
+### The bot doesn't respond at all
+Put your name in quotes you donkle. This happens when you both dont quote and dont specify a region
 
-### The bot complains about permissions!
-Blitzcrank Bot needs the 'embed links' permission, either at the role or channel level, since it sends messages using rich embeds.
+### The bot complains about permissions
+Sean give the bot the embed link permission then
 
 ### "Something unexpected went wrong!"
-I've done my best to catch all exceptions and display proper error messages, but some slip through. This is that message. Join the support server or dm me with details and I'll try to help.
-
-## Enquiries
-Questions, enquiries, etc. can be directed towards Frosty ☃#5263 on Discord or, by email: apal0934@uni.sydney.edu.au
+I need to fix code if that happens
